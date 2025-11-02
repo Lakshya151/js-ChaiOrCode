@@ -20,3 +20,23 @@ let myObj={
 const myFun=function(){
     console.log("Hello World")
 }
+
+//----------------------------------------------------------------------
+// Stack Memory(Primitive DataType) , Heap Memory(Non-Primitive DataType)
+/*In stack we get the copy of that data , but in head we get the reference of that data */
+
+let myName="Lakshya Rajput"
+let anotherName = myName // i will get the copy of myName here , not the original
+
+anotherName="lakhu"
+console.log(myName)
+console.log(anotherName)
+
+let user1={
+    name:"Lakshya Rajput",
+    age:20,
+}
+
+let user2=user1 // here user2 also pointing the data of user1 , as it is refernce type
+user2.age=21
+console.log(user1)
