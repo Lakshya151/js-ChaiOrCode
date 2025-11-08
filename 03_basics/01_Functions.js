@@ -10,6 +10,10 @@ function myfun(){
 // function add_two_numbers(number1 , number2){
 //     console.log(number1+number2)
 // }
+const fun =function(num){
+    return num+2
+}
+console.log(fun(2))
 function add_two_numbers(number1 , number2){
     return number1+number2
 }
