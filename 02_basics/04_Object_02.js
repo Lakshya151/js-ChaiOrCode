@@ -37,3 +37,13 @@ console.log(Object.values(tinder_user))
 console.log(Object.entries(tinder_user))
 console.log(tinder_user.hasOwnProperty('isLoggedIn'))// this will tell if the mentioned property is there in object or not
  
+
+//Destructuring------------
+const course={
+    course_name:"BTech",
+    year:"2nd",
+    Branch:"CSE"
+}
+
+const {course_name:c_name}=course// this is allias of course_name ,as i can use c_name instead course_name
+console.log(c_name)// and also now i don't have to use couse.key_name
