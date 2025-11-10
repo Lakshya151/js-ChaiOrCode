@@ -1,0 +1,11 @@
+JavaScript Execution Context
+  -> Global Execution Context
+  -> Function Execution Context
+  -> Eval Execution Context
+
+code run in two phase->
+  -> Memory creation phase (creation phase)
+  ->Execution phase
+
+call Function 
+ -> it work in LIFO (as Function put in stack one after another)
