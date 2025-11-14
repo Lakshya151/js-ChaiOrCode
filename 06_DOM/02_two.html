@@ -5,7 +5,7 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>DOM | chai or code</title>
 </head>
-<body>
+<body style="background-color: #212121;color: #fff;">
     <div class="parent">
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
@@ -13,4 +13,26 @@
         <div class="day">Thursday</div> 
     </div>
 </body>
+<script>
+    const parent=document.querySelector('.parent')
+    //console.log(parent)
+    //console.log(parent.children)
+    //console.log(parent.children[1])
+    //console.log(parent.children[1].innerHTML)
+
+    // for(let i=0 ;i<parent.children.length;i++){
+    //     console.log(parent.children[i].innerHTML);
+    //     // try with parent.children[i];
+    // }
+    parent.children[1].style.color="orange";
+    //console.log(parent.firstElementChild);  // this will give the first element of the parent
+    //console.log(parent.lastElementChild);//this will give the last element of the parent.
+
+    const dayOne = document.querySelector('.day')
+    // console.log(dayOne)
+    // console.log(dayOne.innerHTML)
+    // console.log(dayOne.parentElement)// this will directly give the parent of the child element.
+    //console.log(dayOne.nextElementSibling)// this will give it's next sibling.
+    console.log("NODES: ",parent.childNodes);
+</script>
 </html>
