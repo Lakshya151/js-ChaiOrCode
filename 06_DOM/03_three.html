@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style="background-color: #212121 ; color: #fff;">
+    
+</body>
+<script>
+    const div=document.createElement('div')
+    console.log(div);
+    div.className="main"
+    div.id=Math.round(Math.random()*10 +1)
+    div.setAttribute("title","generated title")
+    div.style.backgroundColor="green"
+    div.style.padding="12px"
+    //div.innerText="chai or code"
+    const addText=document.createTextNode("chai or code")
+    div.appendChild(addText)
+    //until now we create a div and now we will add this div to our body.
+    document.body.appendChild(div)
+    console.log(div.childNodes)// as div.Children will not work as it work on tags only eg -> <p> ,<div> etc.
+
+</script>
+</html>
