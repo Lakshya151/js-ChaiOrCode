@@ -4,7 +4,7 @@ let myDate= new Date()
 // console.log(myDate.toDateString()) // just give date and day
 // console.log(myDate.toISOString()) // 
 // console.log(myDate.toJSON()) // 
-// console.log(myDate.toLocaleString())
+ console.log(myDate.toLocaleString())// try to use with toLocalDateString()
 // console.log(typeof(myDate))// this is of object type
 let myCreatedDate = new Date(2025,0,23)
 // console.log(myCreatedDate)// this output is hard to read , so change it to datestring
